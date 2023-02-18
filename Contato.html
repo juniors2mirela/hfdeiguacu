@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Rowdies:wght@700&display=swap');
+      </style>
+</head>
+<body class="body_contato">
+  
+    <section>
+      <h2>Contato</h2>
+      <form action="https://api.staticforms.xyz/submit" method="post">
+        <label>Nome</label>
+        <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
+        <label>E-mail</label>
+        <input type="email" name="email" placeholder="Digite seu e-mail" autocomplete="off">
+        <label>Mensagem</label>
+        <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem..."></textarea>
+        <button type="submit">Enviar</button>
+
+        <input type="hidden" name="accessKey" value="deee7fe6-e58e-427c-b378-74477f5d02ed">
+        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+      </form>
+    </section>  
+   
+</body>
+</html>

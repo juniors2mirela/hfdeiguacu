@@ -1,0 +1,164 @@
+
+/*CONFIGURAÇÃO DA PAGINA*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*MENU*/
+.container{
+    max-width: 1600px;
+    padding: 1%;
+    margin: 0;
+    background-color: rgb(52, 92, 177);
+    
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+nav .logo{
+    height: 80px;
+    padding-left: 20px;
+    
+}
+nav ul{
+    list-style: none;
+    
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: rgb(238, 185, 10);
+  
+}
+/*SLIDE PRINCIPAL*/
+.slide{
+    width: 100%;
+    height: 420px;
+    
+    
+}
+/*DECORAÇÃO EM FAIXA*/
+.faixa{
+    height: 30px;
+    width: 100%;
+}
+/*NOSSA HISTÓRIA*/
+.container-nossahistoria{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    
+   
+}
+#img-nossahistoria{
+    height: 150px;  
+}
+#texto-nossa{
+    width: 70%;
+    padding-left: 5%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.img-qld{
+    height: 250px;
+    padding-left: 50px;
+}
+.div-prod{
+    text-align: center;
+    background:  rgb(200, 208, 226);
+    padding: 50px;
+}
+/*RODAPÉ*/
+footer{
+    background-color: #e5b11a;
+    height: 150px;
+    position: relative;   
+}
+.logo-rodape{
+    height: 130px;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    justify-content: space-between;
+    padding-block-end: 10px;
+}
+.nossahistoria{
+    display: flex;
+    justify-content: space-around;   
+}
+p{
+    text-align:justify;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    
+    color: rgb(112, 62, 21);
+}
+.copiryght{
+    background-color: rgb(29, 93, 150);
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    font-size: 13px;
+    text-align: center;
+}
+
+/*PAGINA DE CONTATO*/
+
+.body_contato{
+    padding-top: 220px;
+    background-color: #0089e4;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #ffffff;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+
+    section h2{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#embreve{
+    font-size: 60px;
+    color: brown
+
+
+}
+#img_embreve{
+    height: 200px;
+}
+form{
+    padding: 20px;
+}
